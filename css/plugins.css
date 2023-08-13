@@ -1387,7 +1387,7 @@ th {
 
 html {
     font-size: 10px;
-    -webkit-tap-highlight-color: #0F2E2E;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body {
@@ -11271,7 +11271,7 @@ button.close {
 }
 
 .kenburnsy img {
-    display: none;
+    display: block;
 }
 
 .kenburnsy .slide {

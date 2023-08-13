@@ -3718,8 +3718,9 @@ button.mfp-arrow {
   .premix-menu ul li a {
     padding: 35px 13px;
   }
+
   .logo {
-    padding: 25px 0;
+    padding: 0px 0;
   }
   header.premix-main-menu-area.fixedMenu .premix-menu ul > li > a {
     padding: 34px 13px;
@@ -3802,7 +3803,7 @@ button.mfp-arrow {
     text-align: left;
   }
   .logo {
-    padding: 5px 0;
+    padding: 0px 0;
   }
   header.premix-main-menu-area.fixedMenu .logo {
     padding: 12px 0;
@@ -4069,7 +4070,7 @@ button.mfp-arrow {
     padding: 9px 15px;
   }
   .logo {
-    padding: 5px 0;
+    padding: 0px 0;
   }
   .logo img {
     width: 150px;

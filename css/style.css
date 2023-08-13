@@ -8,7 +8,7 @@ body {
   font-weight: 300;
   font-size: 15px;
   line-height: 1.5;
-  color: #eedf08cc;
+  color: #ddb47f;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -376,7 +376,7 @@ a,
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 5px;
-  color: #eedf08cc;
+  color: #ddb47f;
   bottom: 0;
   left: 0;
 }
@@ -409,7 +409,7 @@ a,
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 5px;
-  color: #eedf08cc;
+  color: #ddb47f;
   bottom: 0;
   left: 0;
 }
@@ -591,13 +591,13 @@ header.premix-main-menu-area.fixedMenu {
 .premix-menu ul li a {
   padding: 35px 20px;
   display: block;
-  color: #eedf08cc;
+  color: #ddb47f;
   text-transform: uppercase;
   transition: all 0.4s ease-out;
 }
 
 .premix-menu ul li a:hover {
-  color: #eedf08cc;
+  color: #ddb47f;
 }
 
 .premix-menu ul li ul li a:hover {
@@ -733,8 +733,7 @@ header.premix-main-menu-area.fixedMenu {
 .premix-single-artist-details h4 {
   margin: 0;
   font-size: 1.067em;
-  color: #eedf08cc;
-
+  color: #ddb47f;
   font-weight: 600;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -910,7 +909,7 @@ header.premix-main-menu-area.fixedMenu {
 
 .premix-album-details h4 {
   margin: 0;
-  color: #eedf08cc;
+  color: #ddb47f;
   font-size: 1.1em;
   text-transform: uppercase;
   font-weight: bold;
@@ -1130,12 +1129,12 @@ header.premix-main-menu-area.fixedMenu {
 .premix-next-event ul li:hover .premix-event-time h3,
 .premix-next-event ul li:hover .premix-event-title h4,
 .premix-next-event ul li:hover .premix-event-title p {
-  color: #eedf08cc;
+  color: #ddb47f;
 }
 
 .premix-next-event ul li:hover .premix-btn.details-btn {
   background-color: #e54148;
-  color: #eedf08cc;
+  color: #ddb47f;
 }
 
 /*
@@ -1146,7 +1145,7 @@ header.premix-main-menu-area.fixedMenu {
 
 .premix-latest-news-header {
   background-color: #e54148;
-  color: #eedf08cc;
+  color: #ddb47f;
   padding: 30px 20px;
 }
 
@@ -1163,7 +1162,7 @@ header.premix-main-menu-area.fixedMenu {
 }
 
 .premix-latest-news-header ul li a {
-  color: #eedf08cc;
+  color: #ddb47f;
   font-size: 0.933em;
 }
 
@@ -1181,7 +1180,7 @@ header.premix-main-menu-area.fixedMenu {
   top: 0;
   left: 0;
   font-size: 0.933em;
-  color: #eedf08cc;
+  color: #ddb47f;
   font-family: "FontAwesome";
 }
 
@@ -1202,7 +1201,7 @@ header.premix-main-menu-area.fixedMenu {
   bottom: 10px;
   margin: 0;
   right: 10px;
-  color: #eedf08cc;
+  color: #ddb47f;
   padding: 5px 10px;
   color: #606060;
 }
@@ -1288,7 +1287,7 @@ header.premix-main-menu-area.fixedMenu {
 */
 
 .premix-footer-bottom-section {
-  color: #eedf08cc;
+  color: #ddb47f;
   padding: 110px 0;
 }
 
@@ -1302,11 +1301,11 @@ header.premix-main-menu-area.fixedMenu {
   font-size: 1.333em;
   letter-spacing: 1px;
   margin-bottom: 40px;
-  color: #eedf08cc;
+  color: #ddb47f;
 }
 
 .premix-single-footer-bottom p {
-  color: #eedf08cc;
+  color: #ddb47f;
   width: 82%;
   line-height: 1.9;
   /*margin-bottom: 40px;*/
@@ -1328,7 +1327,7 @@ header.premix-main-menu-area.fixedMenu {
 
 .premix-social-list ul li a {
   background-color: #2a2a2a;
-  color: #eedf08cc;
+  color: #ddb47f;
   font-size: 1.333em;
   border-radius: 5px;
   transition: all 0.4s;
@@ -1341,12 +1340,12 @@ header.premix-main-menu-area.fixedMenu {
 
 .premix-social-list ul li a:hover {
   background-color: #e54148;
-  color: #eedf08cc;
+  color: #ddb47f;
 }
 
 .premix-single-recent-news h5 {
   margin: 0;
-  color: #eedf08cc;
+  color: #ddb47f;
   font-size: 1.067em;
   font-weight: 600;
   margin-bottom: 5px;
@@ -1399,7 +1398,7 @@ a.mailId {
 
 .premix-footer p {
   margin: 0;
-  color: #eedf08cc;
+  color: #ddb47f;
   letter-spacing: 1px;
 }
 
@@ -1429,7 +1428,7 @@ a.mailId {
 .premix-innner-page p {
   margin: 0;
   font-size: 1.133em;
-  color: #eedf08cc;
+  color: #ddb47f;
   text-transform: uppercase;
 }
 
@@ -1521,11 +1520,11 @@ a.mailId {
 
 .our-webcoderskull .cnt-block h3 {
   text-decoration: none;
-  color: #eedf08cc;
+  color: #ddb47f;
 }
 
 .our-webcoderskull .cnt-block p {
-  color: #eedf08cc;
+  color: #ddb47f;
   font-size: 13px;
   line-height: 20px;
   font-weight: 400;
@@ -1594,14 +1593,14 @@ a.mailId {
 }
 
 .premix-our-team-over-element h5 {
-  color: #eedf08cc;
+  color: #ddb47f;
 }
 
 .premix-our-team-over-element h4 {
   font-weight: 600;
   font-size: 1.067em;
   margin-bottom: 15px;
-  color: #eedf08cc;
+  color: #ddb47f;
 }
 
 .premix-our-team-hover-content {
@@ -1719,7 +1718,7 @@ a.mailId {
 .premix-sponsor-img {
   text-align: center;
   margin-bottom: 60px;
-  color: #eedf08cc;
+  color: #ddb47f;
 }
 
 .premix-sponsor-img.about img {
@@ -1739,8 +1738,7 @@ a.mailId {
 .premix-sponsor-text P {
   font-size: 18px;
   padding-bottom: 15px;
-  color: #eedf08cc;
-
+  color: #ddb47f;
   /* color: #0F2E2E000; */
   /* text-align: justify; */
 }
@@ -1909,7 +1907,7 @@ label.error {
 
 .premix-event-date h4 {
   font-size: 1.333em;
-  color: #eedf08cc;
+  color: #ddb47f;
   font-weight: 300;
   background-color: #fff;
   display: inline-block;
@@ -2171,7 +2169,7 @@ label.error {
 }
 
 .premix-product-grid:hover .premix-product-details h4 {
-  color: #eedf08cc;
+  color: #ddb47f;
 }
 
 .ui-state-default,
@@ -2391,7 +2389,7 @@ label.error {
 
 .premix-error-page .premix-section-heading h2:before {
   font-size: 3em;
-  color: #eedf08cc;
+  color: #ddb47f;
   font-weight: 700;
   z-index: -1;
   top: 1%;
@@ -2484,7 +2482,7 @@ label.error {
   margin-top: 0;
   margin-bottom: 40px;
   font-size: 1.333em;
-  color: #eedf08cc;
+  color: #ddb47f;
   font-weight: 300;
   position: relative;
   letter-spacing: 2px;
@@ -2708,7 +2706,7 @@ button.mfp-arrow {
 .premix-side-bar-tag h4 {
   margin: 0;
   padding-bottom: 20px;
-  color: #eedf08cc;
+  color: #ddb47f;
   text-transform: uppercase;
   font-weight: 300;
   border-bottom: 1px solid #b4b3b3;
@@ -3133,7 +3131,7 @@ button.mfp-arrow {
 }
 
 .premix-welcome-section-element h4 {
-  color: #eedf08cc;
+  color: #ddb47f;
 }
 
 .premix_player_next,
@@ -3587,7 +3585,7 @@ button.mfp-arrow {
 .premix-pricing-table-head h4 {
   margin: 0;
   font-size: 1.333em;
-  color: #eedf08cc;
+  color: #ddb47f;
   text-transform: uppercase;
   margin-bottom: 20px;
   font-weight: 600;
@@ -3656,7 +3654,7 @@ button.mfp-arrow {
 
 .premix-pricing-table-wraper:hover .premix-pricing-table-head h4,
 .premix-pricing-table-wraper:hover .premix-pricing-table-head p {
-  color: #eedf08cc;
+  color: #ddb47f;
 }
 
 .premix-pricing-table-wraper:hover .premix-btn.border-btn {
@@ -3695,7 +3693,7 @@ button.mfp-arrow {
 .premix-contact-us-area h4 {
   margin: 0;
   font-size: 1.667em;
-  color: #eedf08cc;
+  color: #ddb47f;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 2px;

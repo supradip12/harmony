@@ -447,8 +447,9 @@ header.premix-main-menu-area.fixedMenu .premix-menu ul li ul {
   top: 80px;
 }
 
+/* padding to 0 */
 header.premix-main-menu-area.fixedMenu .logo {
-  padding: 20px 0;
+  padding: 0px 0;
 }
 
 header.premix-main-menu-area.fixedMenu {

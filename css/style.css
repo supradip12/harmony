@@ -12,7 +12,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
-    background-color: #000000;
+    background-color: #0F2E2E;
 }
 
 iframe {
@@ -24,7 +24,7 @@ b,
 div,
 ul,
 li {
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: #0F2E2E;
     -webkit-tap-highlight-color: transparent;
     -moz-outline-: none;
 }
@@ -455,7 +455,7 @@ header.premix-main-menu-area.fixedMenu .logo {
 }
 
 header.premix-main-menu-area.fixedMenu {
-    background-color: rgba(23, 23, 23, .9);
+    background-color: #0F2E2E;
     z-index: 9999;
 }
 
@@ -624,7 +624,7 @@ header.premix-main-menu-area.fixedMenu {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: #0F2E2E;
 }
 
 .premix-welcome-element {
@@ -878,7 +878,7 @@ header.premix-main-menu-area.fixedMenu {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: #0F2E2E;
 }
 
 .premix-album-details {
@@ -1383,7 +1383,7 @@ a.mailId {
 */
 
 .premix-footer {
-    background-color: #000000;
+    background-color: #0F2E2E;
     padding: 40px 0;
 }
 
@@ -1482,7 +1482,7 @@ a.mailId {
 .our-webcoderskull .cnt-block {
     float: left;
     width: 100%;
-    background: #000;
+    background: #0F2E2E;
     padding: 30px 20px;
     text-align: center;
     border: 2px solid #282828;
@@ -1558,7 +1558,7 @@ a.mailId {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: #0F2E2E;
 }
 
 .premix-our-team-main-wraper {
@@ -1686,7 +1686,7 @@ a.mailId {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #000;
+    background-color: #0F2E2E;
     z-index: 1;
     opacity: 0;
     transition: all .4s;
@@ -1731,7 +1731,7 @@ a.mailId {
 .premix-sponsor-text P {
     font-size: 18px;
     padding-bottom: 15px;
-    /* color: #000000; */
+    /* color: #0F2E2E000; */
     /* text-align: justify; */
 }
 
@@ -2342,7 +2342,7 @@ label.error {
     padding: 15px 30px;
     border-radius: 5px 0 0 5px;
     text-transform: uppercase;
-    color: #000;
+    color: #0F2E2E;
     width: 170px;
     display: inline-block;
     transition: all .4s ease-in;
@@ -2581,7 +2581,7 @@ img.mfp-img {
 /* button.mfp-close,
 button.mfp-arrow {
     position: absolute;
-    background-color: #000000;
+    background-color: #0F2E2E000;
     opacity: 1;
     border-radius: 100%;
     border: 2px solid;
@@ -2738,7 +2738,7 @@ button.mfp-arrow {
 }
 
 .premix-side-bar-tag a {
-    background-color: #000000;
+    background-color: #0F2E2E;
     padding: 8px 16px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -2990,7 +2990,7 @@ button.mfp-arrow {
 }
 
 .aplayer-list ol {
-    background-color: #000000;
+    background-color: #0F2E2E;
 }
 
 .aplayer {
@@ -3185,7 +3185,7 @@ button.mfp-arrow {
 /* Custom Tab Description And Reviews*/
 
 .premix-tab a {
-    color: #000000 !important;
+    color: #0F2E2E !important;
     text-transform: uppercase;
     background-color: #FFFFFF !important;
     letter-spacing: 1px;
@@ -3390,7 +3390,7 @@ button.mfp-arrow {
 
 .woocommerce-message {
     font-size: 1.333em;
-    background-color: #000000;
+    background-color: #0F2E2E;
     color: #fff;
     letter-spacing: 1px;
     margin-bottom: 80px !important;
@@ -3463,7 +3463,7 @@ button.mfp-arrow {
 
 .premix-cart-page .checkout-button:hover {
     background-color: #fff !important;
-    color: #000 !important;
+    color: #0F2E2E !important;
 }
 
 .chart-item-border td {

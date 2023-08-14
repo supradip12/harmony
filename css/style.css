@@ -106,8 +106,8 @@ iframe {
 }
 .floating-container .floating-button {
   position: absolute;
-  width: 45px;
-  height: 45px;
+  width: 35px;
+  height: 35px;
   /* background: #ddb47f; */
   bottom: 0;
   border-radius: 50%;
@@ -117,7 +117,7 @@ iframe {
   /* color: #0F2E2E; */
   line-height: 45px;
   text-align: center;
-  font-size: 23px;
+  font-size: 20px;
   z-index: 100;
   box-shadow: 0 10px 25px -5px rgba(227, 235, 238, 0.6);
   cursor: pointer;

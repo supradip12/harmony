@@ -76,13 +76,13 @@ iframe {
   height: 100px;
   bottom: 0;
   right: 0;
-  margin: 35px 25px;
+  margin: 35px 40px;
 }
 .floating-container:hover {
   height: 250px;
 }
 .floating-container:hover .floating-button {
-  box-shadow: 10px 10px 10px 10px #ddb47f;
+  /* box-shadow: 10px 10px 10px 10px #ddb47f; */
   -webkit-transform: translatey(5px);
           transform: translatey(5px);
   -webkit-transition: all 0.4s;
@@ -115,11 +115,11 @@ iframe {
   right: 0;
   margin: auto;
   /* color: #0F2E2E; */
-  line-height: 45px;
+  line-height: 35px;
   text-align: center;
-  font-size: 20px;
+  font-size: 50px;
   z-index: 100;
-  box-shadow: 0 10px 25px -5px rgba(227, 235, 238, 0.6);
+  /* box-shadow: 0 10px 25px -5px rgba(227, 235, 238, 0.6); */
   cursor: pointer;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;

@@ -3864,7 +3864,7 @@ button.mfp-arrow {
 
 /*Use if needed*/
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1190px) {
   .premix-main-menu-area {
     height: 70px;
   }
@@ -3879,14 +3879,14 @@ button.mfp-arrow {
     padding: 34px 13px;
   }
   .premix-section-heading h2 {
-    font-size: 6em;
+    font-size: 5em;
     min-height: 73px;
   }
   .header-white h2:before {
     font-size: 50px;
   }
   .premix-section-heading h2:before {
-    font-size: 50px;
+    font-size: 40px;
   }
   .premix-welcome-section #homepage-player-container {
     width: 70%;

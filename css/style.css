@@ -82,11 +82,11 @@ iframe {
   height: 300px;
 }
 .floating-container:hover .floating-button {
-  box-shadow: 0 10px 25px rgba(44, 179, 240, 0.6);
+  box-shadow: 0 10px 25px white;
   -webkit-transform: translatey(5px);
           transform: translatey(5px);
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 .floating-container:hover .element-container .float-element:nth-child(1) {
   -webkit-animation: come-in 0.4s forwards 0.2s;
@@ -96,26 +96,30 @@ iframe {
   -webkit-animation: come-in 0.4s forwards 0.4s;
           animation: come-in 0.4s forwards 0.4s;
 }
-.floating-container:hover .element-container .float-element:nth-child(3) {
+/* .floating-container:hover .element-container .float-element:nth-child(3) {
   -webkit-animation: come-in 0.4s forwards 0.6s;
           animation: come-in 0.4s forwards 0.6s;
+} */
+.floating-container:hover .element-container .float-element:nth-child(3) {
+  -webkit-animation: come-in 0.4s forwards 0.8s;
+          animation: come-in 0.4s forwards 0.8s;
 }
 .floating-container .floating-button {
   position: absolute;
   width: 65px;
   height: 65px;
-  background: #2cb3f0;
+  background: #ddb47f;
   bottom: 0;
   border-radius: 50%;
   left: 0;
   right: 0;
   margin: auto;
-  color: white;
+  color: #0F2E2E;
   line-height: 65px;
   text-align: center;
   font-size: 23px;
   z-index: 100;
-  box-shadow: 0 10px 25px -5px rgba(44, 179, 240, 0.6);
+  box-shadow: 0 10px 25px -5px rgba(227, 235, 238, 0.6);
   cursor: pointer;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -148,8 +152,12 @@ iframe {
   background: #4CAF50;
   box-shadow: 0 20px 20px -10px rgba(76, 175, 80, 0.5);
 }
-.floating-container .float-element:nth-child(3) {
+/* .floating-container .float-element:nth-child(3) {
   background: #FF9800;
+  box-shadow: 0 20px 20px -10px rgba(255, 152, 0, 0.5);
+} */
+.floating-container .float-element:nth-child(3) {
+  background: greenyellow;
   box-shadow: 0 20px 20px -10px rgba(255, 152, 0, 0.5);
 }
 

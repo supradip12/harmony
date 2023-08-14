@@ -7,7 +7,7 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 html {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
@@ -1395,7 +1395,7 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
@@ -12470,7 +12470,7 @@ img.mfp-img {
   top: 50%;
   width: 40px;
   padding: 7px 10px;
-  color: #ffffff;
+  color: #0F2E2E;
   font-size: 14px;
   text-align: center;
   background-color: #0e0e0e;

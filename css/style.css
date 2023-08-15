@@ -5039,6 +5039,7 @@ Generic layout (demo looks)
   padding-inline: 24px;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 24px;
+  padding-top: 62px;
 }
 
 @media screen and (max-width: 960px) {

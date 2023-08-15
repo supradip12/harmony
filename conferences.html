@@ -21,6 +21,7 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/plugins.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/animate.css" />
     <!-- Modernizr -->
@@ -30,7 +31,7 @@
 
 <body>
     <!-- Preloader -->
-    <div id="preloaders">
+    <!-- <div id="preloaders">
         <div class="premix-table">
             <div class="premix-table-cell">
                 <div class="bar-c">
@@ -44,7 +45,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Premix Body Start -->
     <!-- Premix Header Start -->
     <div id="main_menu_fixed"></div>
@@ -141,182 +142,76 @@
             <h2 data-titles="Conferences">Conferences</h2>
         </div>
         <!-- .premix-section-heading End -->
-        <div class="premix-gallery-wraper content-margin-top" id="macy-container">
-            <a href="img/services/conferences/1.jpg" class="premix-gallery-grid-item" id="img-1">
-                <img src="img/services/conferences/1.jpg" alt="">
-            </a>
-            <!-- .premix-gallery-grid-item END -->
-            <a href="img/services/conferences/2.jpg" class="premix-gallery-grid-item" id="img-111">
-                <img src="img/services/conferences/2.jpg" alt="">
-            </a>
-            <!-- .premix-gallery-grid-item END -->
-            <a href="img/services/conferences/3.jpg" class="premix-gallery-grid-item" id="img-112">
-                <img src="img/services/conferences/3.jpg" alt="">
-            </a>
-            <!-- .premix-gallery-grid-item END -->
-            <a href="img/services/conferences/4.jpg" class="premix-gallery-grid-item" id="img-2">
-                <img src="img/services/conferences/4.jpg" alt="">
-            </a>
-            <!-- .premix-gallery-grid-item END -->
-            <a href="img/services/conferences/5.jpg" class="premix-gallery-grid-item" id="img-3">
-                <img src="img/services/conferences/5.jpg" alt="">
-            </a>
-            <!-- .premix-gallery-grid-item END -->
-            <a href="img/services/conferences/6.jpg" class="premix-gallery-grid-item" id="img-113">
-                <img src="img/services/conferences/6.jpg" alt="">
-            </a>
-            <!-- .premix-gallery-grid-item END -->
-            <a href="img/services/conferences/7.jpg" class="premix-gallery-grid-item" id="img-107">
-                <img src="img/services/conferences/7.jpg" alt="">
-            </a>
-            <!-- .premix-gallery-grid-item END -->
-            <a href="img/services/conferences/8.jpg" class="premix-gallery-grid-item" id="img-108">
-                <img src="img/services/conferences/8.jpg" alt="">
-            </a>
-            <!-- .premix-gallery-grid-item END -->
-            <a href="img/services/conferences/9.jpg" class="premix-gallery-grid-item" id="img-4">
-                <img src="img/services/conferences/9.jpg" alt="">
-            </a>
-            <!-- .premix-gallery-grid-item END -->
-            <a href="img/services/conferences/10.jpg" class="premix-gallery-grid-item" id="img-5">
-                <img src="img/services/conferences/10.jpg" alt="">
-            </a>
-            <!-- .premix-gallery-grid-item END -->
-            <a href="img/services/conferences/11.jpg" class="premix-gallery-grid-item" id="img-6">
-                <img src="img/services/conferences/11.jpg" alt="">
-            </a>
-            <!-- .premix-gallery-grid-item END -->
-            <a href="img/services/conferences/12.jpg" class="premix-gallery-grid-item" id="img-7">
-                <img src="img/services/conferences/12.jpg" alt="">
-            </a>
-            <!-- .premix-gallery-grid-item END -->
-            <a href="img/services/conferences/17.jpg" class="premix-gallery-grid-item" id="img-7">
-                <img src="img/services/conferences/17.jpg" alt="">
-            </a>
-            <!-- .premix-gallery-grid-item END -->
-            <a href="img/services/conferences/13.jpg" class="premix-gallery-grid-item" id="img-7">
-                <img src="img/services/conferences/13.jpg" alt="">
-            </a>
-            <!-- .premix-gallery-grid-item END -->
-            <a href="img/services/conferences/14.jpg" class="premix-gallery-grid-item" id="img-7">
-                <img src="img/services/conferences/14.jpg" alt="">
-            </a>
-            <!-- .premix-gallery-grid-item END -->
-            <a href="img/services/conferences/15.jpg" class="premix-gallery-grid-item" id="img-7">
-                <img src="img/services/conferences/15.jpg" alt="">
-            </a>
-            <!-- .premix-gallery-grid-item END -->
-            <a href="img/services/conferences/16.jpg" class="premix-gallery-grid-item" id="img-7">
-                <img src="img/services/conferences/16.jpg" alt="">
-            </a>
-            <!-- .premix-gallery-grid-item END -->
-        </div>
+        <div class="container2" style="background-color:navajowhite">
+            <div class="booking-content">
+              <div class="booking-image">
+                <img class="booking-img" src="images/gettyimages-1137781483-612x612 (1) (1).jpg" alt="Booking Image">
+              </div>
+              <div class="booking-form">
+                <form id="booking-form">
+                  <h2>Booking place for your dinner!</h2>
+                  <div class="form-group form-input">
+                    <input type="text" name="name" id="name" value required />
+                    <label for="name" class="form-label">Your name</label>
+                  </div>
+                  <div class="form-group form-input">
+                    <input type="number" name="phone" id="phone" value required />
+                    <label for="phone" class="form-label">Your phone number</label>
+                  </div>
+                  <div class="form-group">
+                    <div class="select-list">
+                      <select name="time" id="time" required>
+                        <option value>Time</option>
+                        <option value="6pm">6:00 PM</option>
+                        <option value="7pm">7:00 PM</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="select-list">
+                      <select name="food" id="food" required>
+                        <option value>Food</option>
+                        <option value="seasonalfish">Seasonal steamed fish</option>
+                        <option value="assortedmushrooms">Assorted mushrooms</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-radio">
+                    <label class="label-radio"> Select Your Dining Space</label>
+                    <div class="radio-item-list">
+                      <span class="radio-item">
+                        <input type="radio" name="number_people" value="2" id="number_people_2" />
+                        <label for="number_people_2">2</label>
+                      </span>
+                      <span class="radio-item active">
+                        <input type="radio" name="number_people" value="4" id="number_people_4" checked="checked" />
+                        <label for="number_people_4">4</label>
+                      </span>
+                      <span class="radio-item">
+                        <input type="radio" name="number_people" value="6" id="number_people_6" />
+                        <label for="number_people_6">6</label>
+                      </span>
+                      <span class="radio-item">
+                        <input type="radio" name="number_people" value="8" id="number_people_8" />
+                        <label for="number_people_8">8</label>
+                      </span>
+                      <span class="radio-item">
+                        <input type="radio" name="number_people" value="10" id="number_people_10" />
+                        <label for="number_people_10">10</label>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="form-submit">
+                    <input type="submit" value="Book now" class="submit" id="submit" name="submit" />
+                    <a href="#" class="vertify-booking">Verify your booking info from your phone</a>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
         <!-- .premix-gallery-wraper END -->
     </section>
-    <!-- Premix Footer Bottom Section Start -->
-    <section class="premix-footer-bottom-section" id="contact">
-        <div class="container">
-            <div class="row">
-                <!-- <div class="col-md-4 col-sm-6 wow bounceInLeft">
-	                <div class="premix-single-footer-bottom">
-	                    <div class="premix-contact-us-area">
-	                        <form id="contactus" name="contactform" method="POST" action="send_form_email.php" accept-charset= "UTF-8">
-	                        <div class="contact-field-left-side">
-	                            <label for="first_name"></label>
-                                <input id="form-name-px" type="text" name="first_name" placeholder="YOUR NAME : *">
-	                        </div>
-	                        <div class="contact-field-left-side">
-	                            <label for="email"></label>
-                                <input id="form-email-px" type="text" name="email" placeholder="EMAIL : *">
-	                        </div>
-                            <div class="contact-field-left-side">
-	                           <label for="subject"></label>
-                                <input id="form-subject-px" type="text" name="subject" placeholder="SUBJECT : *">
-	                        </div>
-                            <div>
-                               <label for="message"></label>
-                                <textarea id="form-massage-px" name="message" cols="15" rows="6" placeholder="WRITE A LINE : *"></textarea>
-                            </div>
-	                        <div class="submit-button-sec">
-	                            <input type="submit" value="Submit" class="submit_contact_btn">
-	                        </div>
-	                        </form>
-	                    </div>
-	                </div> 
-	            </div>  -->
-                <div class="col-md-6 col-sm-6 wow bounceInUp">
-                    <div class="premix-single-footer-bottom premix-single-news">
-                        <h4>Contact Us</h4>
-                        <a class="premix-single-recent-news">
-                            <h5>Call</h5>
-                            <p><a class="phone" href="tel:+919820408912"> +91 982040 8912</a></p>
-                        </a>
-                        <!-- .premix-single-recent-news END -->
-                        <div class="premix-border"></div>
-                        <!-- .premix-border END -->
-                        <a class="premix-single-recent-news">
-                            <h5>Mail</h5>
-                            <p><a class="mailId" href="mailto:megha@Harmonyinlife.com"> megha@Harmonyinlife.com</a> </p>
-                        </a>
-                        <!-- .premix-single-recent-news END -->
-                    </div>
-                    <!-- .premix-single-footer-bottom END -->
-                    <div class="premix-border"></div>
-                    <!-- .premix-border END -->
-                    <div class="premix-social-list">
-                        <ul style="margin-top:40px;">
-                            <li><a href="https://www.facebook.com/HarmonyinlifeEventPlanners/"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="https://in.linkedin.com/company/Harmonyinlife-events"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="https://www.instagram.com/spreading_Harmonyinlife/?hl=en"><i class="fa fa-instagram"></i></a></li>
-                        </ul>
-                    </div>
-                    <!-- .premix-social-list END -->
-                </div>
-                <div class="col-md-4 col-sm-6 wow bounceInRight">
-                    <div class="premix-single-footer-bottom">
-                        <h4>Photo Gallery</h4>
-                        <div class="premix-image-gallery">
-                            <ul>
-                                <li>
-                                    <a href="gallery.html"><img src="img/mini-gallery/gallery_1.jpg" alt="Event"></a>
-                                </li>
-                                <li>
-                                    <a href="gallery.html"><img src="img/mini-gallery/gallery_2.jpg" alt="Event"></a>
-                                </li>
-                                <li>
-                                    <a href="gallery.html"><img src="img/mini-gallery/gallery_3.jpg" alt="Event"></a>
-                                </li>
-                                <li>
-                                    <a href="gallery.html"><img src="img/mini-gallery/gallery_4.jpg" alt="Event"></a>
-                                </li>
-                                <li>
-                                    <a href="gallery.html"><img src="img/mini-gallery/gallery_5.jpg" alt="Event"></a>
-                                </li>
-                                <li>
-                                    <a href="gallery.html"><img src="img/mini-gallery/gallery_6.jpg" alt="Event"></a>
-                                </li>
-                                <li>
-                                    <a href="gallery.html"><img src="img/mini-gallery/gallery_7.jpg" alt="Event"></a>
-                                </li>
-                                <li>
-                                    <a href="gallery.html"><img src="img/mini-gallery/gallery_8.jpg" alt="Event"></a>
-                                </li>
-                                <li>
-                                    <a href="gallery.html"><img src="img/mini-gallery/gallery_9.jpg" alt="Event"></a>
-                                </li>
-                                <li>
-                                    <a href="gallery.html"><img src="img/mini-gallery/gallery_9.jpg" alt="Event"></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- .premix-single-footer-bottom END -->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Premix Footer -->
-    <footer class="premix-footer">
+    <!-- <footer class="premix-footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -324,7 +219,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
     <!-- Scripts -->
     <script src="js/vendor/jquery-3.2.0.min.js"></script>
     <script src="js/macy.js"></script>

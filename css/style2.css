@@ -4,12 +4,6 @@ display-flex,
   display: -webkit-flex;
 }
 
-list-type-ulli,
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
 
 @font-face {
   font-family: poppins;
@@ -251,35 +245,12 @@ p {
   margin-bottom: 0;
 }
 
-h2 {
-  line-height: 1.8;
-  margin: 0;
-  padding: 0;
-  font-weight: 700;
-  color: #fff;
-  font-family: Poppins;
-  font-size: 21px;
-  text-align: center;
-  margin-bottom: 28px;
-}
 
-body {
-  font-size: 14px;
-  line-height: 1.8;
-  color: #fff;
-  background: #ffd9b0;
-  font-weight: 400;
-  font-family: Poppins;
-  margin: 0;
-  background: #edb77d;
-}
 
-.main {
-  padding: 115px 0;
-  position: relative;
-}
 
-.container {
+
+
+.container2 {
   width: 1150px;
   background: transparent;
   margin: 0 auto;
@@ -517,14 +488,14 @@ input:-moz-placeholder {
   background: #e79e50;
 }
 
-ul {
+/* ul {
   background: 0 0;
   z-index: 9;
   border-bottom: 1px solid #999;
   padding-top: 15px;
-}
+} */
 
-ul li {
+/* ul li {
   padding: 5px 0;
   z-index: 2;
   color: #bebebe;
@@ -535,9 +506,9 @@ ul li:not(.init) {
   background: #fff;
   color: #222;
   padding: 5px 10px;
-}
+} */
 
-ul li:not(.init):hover,
+/* ul li:not(.init):hover,
 ul li.selected:not(.init) {
   background: #edb77d;
 }
@@ -545,7 +516,7 @@ ul li.selected:not(.init) {
 li.init {
   cursor: pointer;
   position: relative;
-}
+} 
 
 li.init:after {
   position: absolute;
@@ -560,7 +531,7 @@ li.init:after {
   color: #bebebe;
   font-family: material-design-iconic-font;
   content: "\f2f2";
-}
+} */
 
 .label-radio {
   display: block;
@@ -605,7 +576,7 @@ li.init:after {
 }
 
 @media screen and (max-width: 780px) {
-  .container {
+  .container2 {
     width: calc(100% - 30px);
     max-width: 100%;
     /* background: 0 0; */
@@ -657,3 +628,4 @@ li.init:after {
     padding: 72px 40px 70px;
   }
 }
+

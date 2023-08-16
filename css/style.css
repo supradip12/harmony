@@ -4,7 +4,7 @@
 */
 
 body {
-  font-family: "Open Sans";
+  font-family: "Open Sans",sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 1.5;
@@ -15,7 +15,7 @@ body {
   background-color: #0f2e2e;
 }
 .wt {
-  background-color: white;
+  background-color: #0f2e2e;
 }
 
 iframe {
@@ -1040,8 +1040,8 @@ header.premix-main-menu-area.fixedMenu {
   left: 0;
   height: 100%;
   width: 100%;
-  /* background-color: #0f2e2e; */
-  background-color: white;
+  background-color: #0f2e2e;
+  /* background-color: white; */
 }
 
 .premix-album-details {
@@ -4944,8 +4944,8 @@ article {
   position: relative;
   border-radius: 16px;
   box-shadow: none;
-  background: #fff;
-  /* background: #28666e; */
+  /* background: #fff; */
+  background: #28666e;
 
   transform-origin: center;
   transition: all 0.4s ease-in-out;
@@ -4966,8 +4966,8 @@ article h2 {
   font-family: "Open Sans", sans-serif;
   font-size: 1.9rem;
   letter-spacing: 0.06em;
-  /* color: var(--title-color); */
-  color: #ddb47f;
+  color: var(--title-color);
+  /* color: #ddb47f; */
   transition: color 0.3s ease-out;
 }
 
@@ -4986,8 +4986,10 @@ article img {
 }
 
 .article-body {
-  color: #fff;
-  background-color: #0f2e2e;
+  /* color: #fff;
+  background-color:; */
+  color: #0f2e2e;
+  background-color: #fff;
   padding: 24px;
 }
 
@@ -5046,7 +5048,7 @@ Generic layout (demo looks)
   display: grid;
   max-width: 1200px;
   margin-inline: auto;
-  padding-inline: 24px;
+  /* padding-inline: 24px; */
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 24px;
   padding-top: 62px;

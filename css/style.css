@@ -1639,6 +1639,7 @@ a.mailId {
 
 .our-webcoderskull .cnt-block figure {
   width: 200px;
+  height: 220px;
   /* height: 148px; */
   /* border-radius: 100%; */
   display: inline-block;
@@ -5080,4 +5081,13 @@ Generic layout (demo looks)
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  /* Your CSS styles here */
+
+  .our-webcoderskull .cnt-block img {
+    width: 109px;
+    height: 148px;
+  }
 }

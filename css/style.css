@@ -207,7 +207,7 @@ a:hover,
 a:visited {
   text-decoration: none;
   outline: 0;
-  color: #fff;
+  color: white;
 }
 
 img {
@@ -1037,7 +1037,9 @@ header.premix-main-menu-area.fixedMenu {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #0f2e2e;
+  /* background-color: #0f2e2e; */
+  background-color: white;
+
 }
 
 .premix-album-details {
@@ -1630,10 +1632,10 @@ a.mailId {
 .our-webcoderskull .cnt-block {
   float: left;
   width: 100%;
-  background: #0f2e2e;
-  padding: 30px 20px;
+  background: #ffffff;
+  padding: 20px 20px;
   text-align: center;
-  border: 2px solid #282828;
+  border: 1px solid #eadfc7;
   margin: 0 0 28px;
 }
 
@@ -1663,11 +1665,11 @@ a.mailId {
 
 .our-webcoderskull .cnt-block h3 {
   text-decoration: none;
-  color: #ddb47f;
+  color: #0f2e2e;
 }
 
 .our-webcoderskull .cnt-block p {
-  color: #ddb47f;
+  color: #0f2e2e;
   font-size: 13px;
   line-height: 20px;
   font-weight: 400;
@@ -4960,7 +4962,8 @@ article h2 {
   font-family: "Open Sans", sans-serif;
   font-size: 1.9rem;
   letter-spacing: 0.06em;
-  color: var(--title-color);
+  /* color: var(--title-color); */
+  color: #ddb47f;
   transition: color 0.3s ease-out;
 }
 
@@ -4979,6 +4982,8 @@ article img {
 }
 
 .article-body {
+  color:#fff;
+  background-color: #0f2e2e;
   padding: 24px;
 }
 
@@ -5059,6 +5064,7 @@ Generic layout (demo looks)
     gap: 16px;
   }
   .article-body {
+    
     padding-left: 0;
   }
   figure {

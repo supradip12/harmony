@@ -60,6 +60,11 @@
     <meta name="robots" content="noindex, follow">
     <script nonce="9e3c7002-e71c-4e5d-ac23-f5b60dd371bd">(function (w, d) { !function (j, k, l, m) { j[l] = j[l] || {}; j[l].executed = []; j.zaraz = { deferred: [], listeners: [] }; j.zaraz.q = []; j.zaraz._f = function (n) { return async function () { var o = Array.prototype.slice.call(arguments); j.zaraz.q.push({ m: n, a: o }) } }; for (const p of ["track", "set", "debug"]) j.zaraz[p] = j.zaraz._f(p); j.zaraz.init = () => { var q = k.getElementsByTagName(m)[0], r = k.createElement(m), s = k.getElementsByTagName("title")[0]; s && (j[l].t = k.getElementsByTagName("title")[0].text); j[l].x = Math.random(); j[l].w = j.screen.width; j[l].h = j.screen.height; j[l].j = j.innerHeight; j[l].e = j.innerWidth; j[l].l = j.location.href; j[l].r = k.referrer; j[l].k = j.screen.colorDepth; j[l].n = k.characterSet; j[l].o = (new Date).getTimezoneOffset(); if (j.dataLayer) for (const w of Object.entries(Object.entries(dataLayer).reduce(((x, y) => ({ ...x[1], ...y[1] })), {}))) zaraz.set(w[0], w[1], { scope: "page" }); j[l].q = []; for (; j.zaraz.q.length;) { const z = j.zaraz.q.shift(); j[l].q.push(z) } r.defer = !0; for (const A of [localStorage, sessionStorage]) Object.keys(A || {}).filter((C => C.startsWith("_zaraz_"))).forEach((B => { try { j[l]["z_" + B.slice(7)] = JSON.parse(A.getItem(B)) } catch { j[l]["z_" + B.slice(7)] = A.getItem(B) } })); r.referrerPolicy = "origin"; r.src = "../../../cdn-cgi/zaraz/sd0d9.js?z=" + btoa(encodeURIComponent(JSON.stringify(j[l]))); q.parentNode.insertBefore(r, q) };["complete", "interactive"].includes(k.readyState) ? zaraz.init() : j.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, "zarazData", "script"); })(window, document);
     </script>
+    <!-- <style>
+        .p{
+            font-family: sans-serif,"Open Sans";
+        }
+    </style> -->
 </head>
 
 <body class="home">
@@ -67,22 +72,13 @@
     <div id="preloaders">
         <div class="premix-table">
             <div class="premix-table-cell">
-                <!--<div class="bar-c">
-                    <div id="bar-1" class="bar"></div>
-                    <div id="bar-2" class="bar"></div>
-                    <div id="bar-3" class="bar"></div>
-                    <div id="bar-4" class="bar"></div>
-                    <div id="bar-5" class="bar"></div>
-                    <div id="bar-6" class="bar"></div>
-                    <div id="bar-7" class="bar"></div>
-                </div>-->
             </div>
         </div>
     </div>
     <!-- Premix Body Start -->
     <!-- Premix Header Start -->
 
-    <header class="premix-main-menu-area">
+    <header class="premix-main-menu-area" style="background-color:#0f2e2e" >
         <div class="container">
             <div class="row">
                 <div class="col-md-2 col-sm-3 col-xs-6">
@@ -116,7 +112,7 @@
                             </li>
                             <li><a href="#a-services">ALLIED SERVICES</a></li>
                             <li><a href="#">Gallery</a></li>
-                            <li><a href="contact.html">PACKAGE</a></li>
+                            <li><a href="contact.html">PACKAGES</a></li>
                         </ul>
                     </div>
                     <!-- .premix-menu End -->
@@ -139,7 +135,7 @@
                             </li>
                             <li><a href="#a-services">ALLIED SERVICES</a></li>
                             <li><a href="#">Gallery</a></li>
-                            <li><a href="contact.html">PACKAGE</a></li>
+                            <li><a href="contact.html">PACKAGES</a></li>
                         </ul>
                     </div>
                     <!-- .premix-menu End -->
@@ -316,6 +312,7 @@
     <section class="articles">
         
         <article>
+     
           <div class="article-wrapper">
             <figure>
               <img src="https://picsum.photos/id/1011/800/450" alt="" />
@@ -325,7 +322,7 @@
               <p>
                 Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.
               </p>
-              <a href="#" class="read-more">
+              <a href="contact.html " class="read-more">
                 Read more <span class="sr-only">about this is some title</span>
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
                   <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -333,9 +330,10 @@
               </a>
             </div>
           </div>
+    
         </article>
         <article>
-      
+   
           <div class="article-wrapper">
             <figure>
               <img src="https://picsum.photos/id/1005/800/450" alt="" />
@@ -345,7 +343,7 @@
               <p>
                 Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.
               </p>
-              <a href="#" class="read-more">
+              <a href="contact.html" class="read-more">
                 Read more <span class="sr-only">about this is some title</span>
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
                   <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -353,19 +351,21 @@
               </a>
             </div>
           </div>
+   
         </article>
         <article>
-      
+            
           <div class="article-wrapper">
             <figure>
               <img src="https://picsum.photos/id/103/800/450" alt="" />
             </figure>
             <div class="article-body">
+         
               <h2>This is some title</h2>
               <p>
                 Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.
               </p>
-              <a href="#" class="read-more">
+              <a href="contact.html" class="read-more">
                 Read more <span class="sr-only">about this is some title</span>
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
                   <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -864,7 +864,7 @@
                         <!-- .premix-border END -->
                         <a class="premix-single-recent-news">
                             <h5>Mail</h5>
-                            <p><a class="mailId" href="mailto:megha@Harmonyinlife.com"> megha@Harmonyinlife.com</a> </p>
+                            <p><a class="mailId" href="mailto:megha@Harmonyinlife.com"> contactharmonyinlife@gmail.com</a> </p>
                         </a>
                         <!-- .premix-single-recent-news END -->
                     </div>
@@ -873,13 +873,13 @@
                     <!-- .premix-border END -->
                     <div class="premix-social-list">
                         <ul style="margin-top:40px;">
-                            <li><a href="https://www.facebook.com/HarmonyinlifeEventPlanners/"><i
+                            <li><a href="https://www.facebook.com/harmonyinlife.s"><i
                                         class="fa fa-facebook"></i></a></li>
-                            <li><a href="https://in.linkedin.com/company/Harmonyinlife-events"><i
-                                        class="fa fa-linkedin"></i></a></li>
-                            <li><a href="https://www.instagram.com/spreading_Harmonyinlife/?hl=en"><i
+                            <!-- <li><a href="https://youtube.com/@harmonyinlife1707"><i
+                                        class="fa fa-linkedin"></i></a></li> -->
+                            <li><a href="https://instagram.com/harmonyinlife.in?igshid=MzRlODBiNWFlZA=="><i
                                         class="fa fa-instagram"></i></a></li>
-                            <li><a href="https://www.instagram.com/spreading_Harmonyinlife/?hl=en"><i
+                            <li><a href="https://youtube.com/@harmonyinlife1707"><i
                                         class="fa fa-youtube"></i></a></li>
                         </ul>
                     </div>
@@ -928,16 +928,16 @@
         <div class="floating-button"><img src="img/icons/har3.png" alt=""></div>
         <div class="element-container">
             <span class="float-element tooltip-left">
-                <a href="#" class="fa fa-facebook"></a>
+                <a href="https://www.facebook.com/harmonyinlife.s" class="fa fa-facebook"></a>
             </span>
             <span class="float-element">
-                <a href="#" class="fa fa-whatsapp"></a>
+                <a href="https://api.whatsapp.com/send?phone=99930000238&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="fa fa-whatsapp"></a>
             </span>
             <!-- <span class="float-element">
             <a href="#" class="fa fa-youtube"></a>
           </span> -->
             <span class="float-element">
-                <a href="#" class="fa fa-phone"></a>
+                <a href="tel:+9199930000238" class="fa fa-phone"></a>
             </span>
         </div>
     </div>

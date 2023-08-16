@@ -129,7 +129,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: "Open Sans", sans-serif;
   font-size: 1em;
 }
 
@@ -304,7 +304,7 @@ th {
 }
 
 @font-face {
-  font-family: "Glyphicons Halflings";
+  font-family: "Open Sans", sans-serif;
   src: url(../fonts/glyphicons-halflings-regular.html);
   src: url(../fonts/glyphicons-halflings-regulard41dd41d.html?#iefix)
       format("embedded-opentype"),
@@ -319,7 +319,7 @@ th {
   position: relative;
   top: 1px;
   display: inline-block;
-  font-family: "Glyphicons Halflings";
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1;
@@ -1926,7 +1926,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: "Open Sans", sans-serif;
 }
 
 code {

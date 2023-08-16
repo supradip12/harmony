@@ -14,6 +14,9 @@ body {
   overflow-x: hidden;
   background-color: #0f2e2e;
 }
+.wt {
+  background-color: white;
+}
 
 iframe {
   border: none;
@@ -1039,7 +1042,6 @@ header.premix-main-menu-area.fixedMenu {
   width: 100%;
   /* background-color: #0f2e2e; */
   background-color: white;
-
 }
 
 .premix-album-details {
@@ -4982,7 +4984,7 @@ article img {
 }
 
 .article-body {
-  color:#fff;
+  color: #fff;
   background-color: #0f2e2e;
   padding: 24px;
 }
@@ -5064,7 +5066,6 @@ Generic layout (demo looks)
     gap: 16px;
   }
   .article-body {
-    
     padding-left: 0;
   }
   figure {

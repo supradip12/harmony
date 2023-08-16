@@ -1863,7 +1863,8 @@ a.mailId {
 .premix-sponsor-img {
   text-align: center;
   margin-bottom: 60px;
-  color: #ddb47f;
+  /* color: #ddb47f; */
+  color: #0f2e2e;
 }
 
 .premix-sponsor-img.about img {
@@ -4605,6 +4606,7 @@ button.mfp-arrow {
   }
   .premix-sponsor-img h4 {
     font-size: 12px;
+    color: #0f2e2e;
   }
   .premix-latest-news-header h4 {
     font-size: 0.9em;

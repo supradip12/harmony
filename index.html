@@ -67,7 +67,7 @@
   background: #000;
 } */
 
-        .pcode p {
+        /* .pcode p {
             font-weight: 500;
             text-align: center;
             font-size: 30px;
@@ -92,7 +92,36 @@
             100% {
                 background-position-x: 500%;
             }
-        }
+        } */
+        .pop-outin {
+  animation: 2s anim-popoutin ease infinite;
+}
+
+@keyframes anim-popoutin {
+  0% {
+    color: rgb(252, 252, 252);
+    transform: scale(0);
+    opacity: 0;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  25% {
+    color: #ddb47f;
+    transform: scale(1);
+    opacity: 1;
+    text-shadow: 3px 10px 5px rgba(0, 0, 0, 0.5);
+  }
+  50% {
+    color: black;
+    transform: scale(1);
+    opacity: 1;
+    text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+  }
+}
     </style>
     <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
 
@@ -150,7 +179,7 @@
                                     <li><a href="conferences.html#">Conferences</a></li>
                                 </ul> -->
                             </li>
-                            <li><a href="#a-services">ALLIED SERVICES</a></li>
+                            <li><a href="#a-services">TESTIMONIALS</a></li>
                             <li><a href="gallery.html">Gallery</a></li>
                             <li><a href="contact.html">PACKAGES</a></li>
                         </ul>
@@ -173,7 +202,7 @@
                                     <li><a href="conferences.html#">Conferences</a></li>
                                 </ul> -->
                             </li>
-                            <li><a href="#a-services">ALLIED SERVICES</a></li>
+                            <li><a href="#a-services">TESTIMONIALS</a></li>
                             <li><a href="gallery.html">Gallery</a></li>
                             <li><a href="contact.html">PACKAGES</a></li>
                         </ul>
@@ -223,8 +252,8 @@
     <section class="premix-our-sponsor section-padding" id="about" style="background-color: white;">
         <div class="container">
 
-            <div class="premix-section-heading header-white text-center">
-                <h2 data-titles="Our Story"></h2>
+            <div class="premix-section-heading header-white text-center" >
+                <h2 data-titles="Our Story" class="pop-outin" ></h2>
             </div>
             <div class="row content-margin-top">
                 <div
@@ -252,9 +281,9 @@
     <!-- Premix Our Story Section Start -->
     <section class="premix-our-story-section section-padding" style="background-color: #0f2e2e;">
         <div class="container">
-            <div class="text-center pcode">
-                <!-- <h2 data-titles="Our Promise">Our Promise</h2> -->
-                <p>Our Promise</p>
+            <div class="premix-section-heading header-white text-center">
+                <h2 data-titles="Our Promise" class="pop-outin"></h2>
+                <!-- <p class="pop-outin">OUR PROMISE</p> -->
             </div>
             <a>
                 <div class="premix-sponsor-text text-center">

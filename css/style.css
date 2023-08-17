@@ -511,8 +511,53 @@ a,
   white-space: nowrap;
   text-align: center;
 }
+.premix-section-heading h3 {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  z-index: 1;
+  font-size: 8em;
+  /* color: #28282882; */
+  /* opacity: 0.5; */
+  font-weight: 700;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  line-height: 0.8;
+  min-height: 96px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+  font-weight: 500;
+  text-align: center;
+  /* font-size: 30px; */
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #ddb47f, #fff, #000006);
+  letter-spacing: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 4s linear infinite;
+  position: relative;
+}
 
 .premix-section-heading h2:before {
+  position: absolute;
+  content: attr(data-titles);
+  font-size: 75px;
+  width: 100%;
+  z-index: 1;
+  text-transform: uppercase;
+  font-weight: 550;
+  letter-spacing: 5px;
+  color: #e1af6e;
+  bottom: 0;
+  left: 0;
+}
+.premix-section-heading h3:before {
   position: absolute;
   content: attr(data-titles);
   font-size: 75px;
@@ -879,7 +924,7 @@ header.premix-main-menu-area.fixedMenu {
   margin: 0;
   font-size: 1.067em;
   color: #ddb47f;
-  font-weight: 600;
+  font-weight: 300;
   margin-bottom: 10px;
   text-transform: uppercase;
   transition: all 5s ease-in;
@@ -2549,6 +2594,21 @@ label.error {
   line-height: inherit;
   padding: 110px 0 10px;
 }
+.premix-error-page .premix-section-heading h3:before {
+  font-size: 3em;
+  color: #ddb47f;
+  font-weight: 700;
+  z-index: -1;
+  top: 1%;
+  transform: translateY(-47%);
+}
+
+.premix-error-page .premix-section-heading h3 {
+  font-size: 6.667em;
+  line-height: inherit;
+  padding: 110px 0 10px;
+}
+
 
 .premix-error-page .attr-padding {
   padding: 0;
@@ -3879,10 +3939,17 @@ button.mfp-arrow {
     font-size: 5em;
     min-height: 73px;
   }
+  .premix-section-heading h3 {
+    font-size: 5em;
+    min-height: 73px;
+  }
   .header-white h2:before {
     font-size: 50px;
   }
   .premix-section-heading h2:before {
+    font-size: 40px;
+  }
+  .premix-section-heading h3:before {
     font-size: 40px;
   }
   .premix-welcome-section #homepage-player-container {
@@ -3968,8 +4035,16 @@ button.mfp-arrow {
     font-size: 6em;
     min-height: 73px;
   }
+  .premix-section-heading h3 {
+    font-size: 6em;
+    min-height: 73px;
+  }
   .header-white h2:before,
   .premix-section-heading h2:before {
+    font-size: 50px;
+  }
+  .header-white h3:before,
+  .premix-section-heading h3:before {
     font-size: 50px;
   }
   .premix-welcome-section #homepage-player-container {
@@ -4424,6 +4499,9 @@ button.mfp-arrow {
     width: 120px;
   }
   .premix-section-heading h2:before {
+    font-size: 30px;
+  }
+  .premix-section-heading h3:before {
     font-size: 30px;
   }
   .premix-news-img img {

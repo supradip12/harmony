@@ -1512,9 +1512,9 @@ h4,
 h5,
 h6 {
   font-family: inherit;
-  font-weight: 500;
-  line-height: 1.1;
-  color: fff;
+  font-weight: 300;
+  line-height: 1.5;
+  /* color: fff; */
 }
 
 .h1 .small,
@@ -1627,7 +1627,7 @@ h6 {
 }
 
 p {
-  margin: 0 0 10px;
+  margin: 0 0 30px;
 }
 
 .lead {

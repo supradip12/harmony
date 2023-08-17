@@ -12,7 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-  background-color: #0f2e2e;
+  background-color: #f5fafa;
 }
 .wt {
   background-color: #0f2e2e;
@@ -2608,7 +2608,6 @@ label.error {
   line-height: inherit;
   padding: 110px 0 10px;
 }
-
 
 .premix-error-page .attr-padding {
   padding: 0;

@@ -12,12 +12,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-  background-color: #f5fafa;
+  background-color: #0f2e2e;
 }
 .wt {
   background-color: #0f2e2e;
 }
-
+body.home.bt {
+  background-color: #fff;
+}
 iframe {
   border: none;
 }

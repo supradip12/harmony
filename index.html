@@ -33,12 +33,17 @@
     <!-- Google Fonts  -->
     <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700%7CRoboto:300,400" rel="stylesheet">
     <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="css/plugins.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/slick-theme.css" />
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/icon.css" />
     <!-- Modernizr -->
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     <script src="js/wow.js"></script>
@@ -94,34 +99,37 @@
             }
         } */
         .pop-outin {
-  animation: 2s anim-popoutin ease infinite;
-}
+            animation: 2s anim-popoutin ease infinite;
+        }
 
-@keyframes anim-popoutin {
-  0% {
-    color: rgb(252, 252, 252);
-    transform: scale(0);
-    opacity: 0;
-    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
-  }
-  25% {
-    color: #ddb47f;
-    transform: scale(1);
-    opacity: 1;
-    text-shadow: 3px 10px 5px rgba(0, 0, 0, 0.5);
-  }
-  50% {
-    color: black;
-    transform: scale(1);
-    opacity: 1;
-    text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
-  }
-  100% {
-    transform: scale(1);
-    opacity: 1;
-    text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
-  }
-}
+        @keyframes anim-popoutin {
+            0% {
+                color: rgb(252, 252, 252);
+                transform: scale(0);
+                opacity: 0;
+                text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+            }
+
+            25% {
+                color: #ddb47f;
+                transform: scale(1);
+                opacity: 1;
+                text-shadow: 3px 10px 5px rgba(0, 0, 0, 0.5);
+            }
+
+            50% {
+                color: black;
+                transform: scale(1);
+                opacity: 1;
+                text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 1;
+                text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+            }
+        }
     </style>
     <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
 
@@ -252,8 +260,8 @@
     <section class="premix-our-sponsor section-padding" id="about" style="background-color: white;">
         <div class="container">
 
-            <div class="premix-section-heading header-white text-center" >
-                <h2 data-titles="Our Story" class="pop-outin" ></h2>
+            <div class="premix-section-heading header-white text-center">
+                <h2 data-titles="Our Story" class="pop-outin"></h2>
             </div>
             <div class="row content-margin-top">
                 <div
@@ -575,7 +583,7 @@
                                 </a>
                             </div>
                         </div>
-    
+
                     </article>
                 </div>
                 <!-- .premix-single-album Team Building END -->
@@ -605,7 +613,7 @@
                                 </a>
                             </div>
                         </div>
-    
+
                     </article>
                 </div>
                 <!-- .premix-single-album Corporate Events END -->
@@ -635,7 +643,7 @@
                                 </a>
                             </div>
                         </div>
-    
+
                     </article>
                 </div>
                 <!-- .premix-single-album Workshops END -->
@@ -665,7 +673,7 @@
                                 </a>
                             </div>
                         </div>
-    
+
                     </article>
                 </div>
                 <!-- .premix-single-album Workshops END -->
@@ -725,7 +733,7 @@
                                 </a>
                             </div>
                         </div>
-    
+
                     </article>
                 </div>
                 <!-- .premix-single-album Workshops END -->
@@ -755,7 +763,7 @@
                                 </a>
                             </div>
                         </div>
-    
+
                     </article>
                 </div>
                 <!-- .premix-single-album Workshops END -->
@@ -785,7 +793,7 @@
                                 </a>
                             </div>
                         </div>
-    
+
                     </article>
                 </div>
                 <!-- .premix-single-album Workshops END -->
@@ -849,7 +857,7 @@
                                 </a>
                             </div>
                         </div>
-    
+
                     </article>
                 </div>
                 <!-- .premix-single-album Workshops END -->
@@ -1127,7 +1135,12 @@
             </div>
         </div>
     </section>
-    <div class="floating-container">
+    <div class="sticky-icon">
+        <a href="https://api.whatsapp.com/send?phone=99930000238&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202"
+            class="whatsapp" style="color: #0f2e2e; font-weight: 500;"><i class="fab fa-whatsapp"
+                style="font-size: 15px;"></i>Harmonize your life</a>
+    </div>
+    <!-- <div class="floating-container">
         <div class="floating-button"><img src="img/icons/har3.png" alt=""></div>
         <div class="element-container">
             <span class="float-element tooltip-left">
@@ -1137,14 +1150,12 @@
                 <a href="https://api.whatsapp.com/send?phone=99930000238&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202."
                     class="fa fa-whatsapp"></a>
             </span>
-            <!-- <span class="float-element">
-            <a href="#" class="fa fa-youtube"></a>
-          </span> -->
+  
             <span class="float-element">
                 <a href="tel:+9199930000238" class="fa fa-phone"></a>
             </span>
         </div>
-    </div>
+    </div> -->
     <!-- Premix Footer -->
     <footer class="premix-footer">
         <div class="container">

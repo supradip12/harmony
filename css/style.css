@@ -3940,6 +3940,10 @@ button.mfp-arrow {
     font-size: 5em;
     min-height: 73px;
   }
+  .pcode p{
+    font-size: 5em;
+    min-height: 73px;
+  }
   .premix-section-heading h3 {
     font-size: 5em;
     min-height: 73px;
@@ -3948,6 +3952,9 @@ button.mfp-arrow {
     font-size: 50px;
   }
   .premix-section-heading h2:before {
+    font-size: 40px;
+  }
+  .pcode p::before{
     font-size: 40px;
   }
   .premix-section-heading h3:before {
@@ -4036,12 +4043,19 @@ button.mfp-arrow {
     font-size: 6em;
     min-height: 73px;
   }
+  .pcode p{
+    font-size: 6em;
+    min-height: 73px;
+  }
   .premix-section-heading h3 {
     font-size: 6em;
     min-height: 73px;
   }
   .header-white h2:before,
   .premix-section-heading h2:before {
+    font-size: 50px;
+  }
+  .pcode p:before{
     font-size: 50px;
   }
   .header-white h3:before,
@@ -4298,6 +4312,11 @@ button.mfp-arrow {
   .logo {
     padding: 0px 0;
   }
+  .pcode p{
+    font-size: 3em;
+    min-height: 38px;
+    /* font-size: 30px; */
+  }
   .logo img {
     width: 150px;
   }
@@ -4500,6 +4519,12 @@ button.mfp-arrow {
     width: 120px;
   }
   .premix-section-heading h2:before {
+    font-size: 30px;
+  }
+  .pcode p:before{
+    font-size: 30px;
+  }
+  .pcode p{
     font-size: 30px;
   }
   .premix-section-heading h3:before {

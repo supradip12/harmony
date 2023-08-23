@@ -5227,6 +5227,7 @@ Generic layout (demo looks)
 .tesicontainer {
   max-width: 950px;
   /* background-color: #fff; */
+  margin-left: 12px;
 }
 .card {
   border-radius: 1rem;

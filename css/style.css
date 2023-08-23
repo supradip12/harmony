@@ -3940,7 +3940,7 @@ button.mfp-arrow {
     font-size: 5em;
     min-height: 73px;
   }
-  .pcode p{
+  .pcode p {
     font-size: 5em;
     min-height: 73px;
   }
@@ -3954,7 +3954,7 @@ button.mfp-arrow {
   .premix-section-heading h2:before {
     font-size: 40px;
   }
-  .pcode p::before{
+  .pcode p::before {
     font-size: 40px;
   }
   .premix-section-heading h3:before {
@@ -4043,7 +4043,7 @@ button.mfp-arrow {
     font-size: 6em;
     min-height: 73px;
   }
-  .pcode p{
+  .pcode p {
     font-size: 6em;
     min-height: 73px;
   }
@@ -4055,7 +4055,7 @@ button.mfp-arrow {
   .premix-section-heading h2:before {
     font-size: 50px;
   }
-  .pcode p:before{
+  .pcode p:before {
     font-size: 50px;
   }
   .header-white h3:before,
@@ -4312,7 +4312,7 @@ button.mfp-arrow {
   .logo {
     padding: 0px 0;
   }
-  .pcode p{
+  .pcode p {
     font-size: 3em;
     min-height: 38px;
     /* font-size: 30px; */
@@ -4521,10 +4521,10 @@ button.mfp-arrow {
   .premix-section-heading h2:before {
     font-size: 30px;
   }
-  .pcode p:before{
+  .pcode p:before {
     font-size: 30px;
   }
-  .pcode p{
+  .pcode p {
     font-size: 30px;
   }
   .premix-section-heading h3:before {
@@ -5205,4 +5205,95 @@ Generic layout (demo looks)
     width: 109px;
     height: 148px;
   }
+}
+/* 
+ */
+/* 
+ */
+/* 
+ */
+/* 
+ */
+/* 
+ */
+/* 
+ */
+/* 
+ */
+/* 
+ */
+/* 
+ */
+.tesicontainer {
+  max-width: 950px;
+  /* background-color: #fff; */
+}
+.card {
+  border-radius: 1rem;
+  box-shadow: 0px -10px 0px rgb(151, 248, 6);
+  background-color: #fff;
+  height: 65vh;
+}
+@media (max-width: 767px) {
+  .card {
+    margin: 1rem 0.7rem 1rem;
+    max-width: 80vw;
+  }
+}
+.card-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6.2rem;
+  border-radius: 50%;
+  padding-top: 8px;
+  margin: 1.3rem auto 1rem auto;
+}
+.col-md-4 {
+  padding: 0 0.5rem;
+}
+
+.img-fluid.d-flex.mx-auto {
+  border-radius: 50%;
+}
+/* .card.d-flex.mx-auto {
+  border-radius: 50%;
+} */
+.card-title {
+  font-size: 1.6rem;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-family: "IM Fell French Canon SC";
+}
+.card-text {
+  text-align: center;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+  color: rgb(82, 81, 81);
+  /* line-height: 1.4rem; */
+}
+.footer {
+  border-top: none;
+  text-align: center;
+  line-height: 1.2rem;
+  padding: 2rem 0 1.4rem 0;
+  font-family: "Varela Round";
+}
+#name {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+#position {
+  font-size: 1rem;
+}
+a {
+  color: rgb(151, 248, 6);
+  font-weight: bold;
+}
+a:hover {
+  color: rgb(151, 248, 6);
+}
+.data-titles {
+  margin-bottom: 25px;
 }

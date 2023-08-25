@@ -289,7 +289,7 @@ a,
 }
 
 .content-margin-top {
-  margin-top: 85px;
+  /* margin-top: 20px; */
 }
 
 .attr-padding {
@@ -5234,6 +5234,7 @@ Generic layout (demo looks)
   box-shadow: 0px -10px 0px rgb(151, 248, 6);
   background-color: #fff;
   height: 65vh;
+  width: 89%;
 }
 @media (max-width: 767px) {
   .card {

@@ -595,7 +595,7 @@ a,
 .header-white h2:before {
   position: absolute;
   content: attr(data-titles);
-  font-size: 75px;
+  font-size: 55px;
   width: 100%;
   z-index: 1;
   text-transform: uppercase;
@@ -1706,7 +1706,7 @@ a.mailId {
 .our-webcoderskull .cnt-block h3 {
   color: #2a2a2a;
   margin-top: 10px;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 500;
   padding: 6px 0;
   text-transform: uppercase;

@@ -289,15 +289,15 @@ a,
 }
 
 .section-padding {
-  padding: 112px 0px;
+  padding: 45px 0px;
 }
 
 .content-margin-top {
   /* margin-top: 20px; */
 }
 
-.attr-padding {
-  padding-top: 65px;
+.section-padding {
+  padding-top: 112px 0px;
 }
 
 .premix-table {
@@ -4396,6 +4396,7 @@ button.mfp-arrow {
   .logo img {
     width: 150px;
   }
+
   header.premix-main-menu-area.fixedMenu .logo {
     padding: 8px 0;
   }
@@ -4720,7 +4721,7 @@ button.mfp-arrow {
     font-size: 1em;
   }
   .section-padding {
-    padding: 70px 0px;
+    padding: 40px 0px;
   }
   .content-margin-top {
     margin-top: 50px;
@@ -5309,13 +5310,14 @@ Generic layout (demo looks)
   border-radius: 1rem;
   box-shadow: 0px -10px 0px rgb(151, 248, 6);
   background-color: #fff;
-  height: 65vh;
+  height: 55vh;
   width: 89%;
 }
 @media (max-width: 767px) {
   .card {
     margin: 0rem 1.9rem 2rem;
     max-width: 80vw;
+    height: 48vh;
   }
 }
 .card-image {
@@ -5374,4 +5376,34 @@ a:hover {
 }
 .data-titles {
   margin-bottom: 25px;
+}
+h2.mod {
+  margin-bottom: 31px;
+  margin-top: -52px;
+}
+h2.ho {
+  margin-top: -45px;
+}
+h2.modi {
+  margin-top: -44px;
+  margin-bottom: -27px;
+}
+h2.modx {
+  margin-bottom: -3px;
+  margin-top: -37px;
+}
+
+@media (max-width: 767px) {
+  h2.mod {
+    margin-bottom: -23px;
+  }
+
+  h2.ho {
+    margin-top: -28px;
+    margin-bottom: -34px;
+  }
+  h2.modx {
+    margin-bottom: -34px;
+    margin-top: -36px;
+  }
 }

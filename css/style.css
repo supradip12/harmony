@@ -1762,6 +1762,7 @@ a.mailId {
   text-align: center;
   border: 1px solid #eadfc7;
   margin: 0 0 28px;
+  border-radius: 20px;
 }
 
 .our-webcoderskull .cnt-block figure {
@@ -5385,8 +5386,10 @@ h2.ho {
   margin-top: -45px;
 }
 h2.modi {
-  margin-top: -44px;
-  margin-bottom: -27px;
+  /* margin-top: -44px; */
+  /* margin-bottom: -27px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 h2.modx {
   margin-bottom: -3px;

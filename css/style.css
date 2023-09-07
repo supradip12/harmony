@@ -5410,3 +5410,16 @@ h2.modx {
     margin-top: -36px;
   }
 }
+.responsive-map{
+  overflow: hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  .responsive-map iframe{
+  /* left:0; */
+  top:20px;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }

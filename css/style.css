@@ -1758,7 +1758,7 @@ a.mailId {
   float: left;
   width: 100%;
   background: #ffffff;
-  padding: 20px 20px;
+  /* padding: 20px 20px; */
   text-align: center;
   border: 1px solid #eadfc7;
   margin: 0 0 28px;
@@ -5410,16 +5410,25 @@ h2.modx {
     margin-top: -36px;
   }
 }
-.responsive-map{
+.responsive-map {
   overflow: hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
-  }
-  .responsive-map iframe{
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.responsive-map iframe {
   /* left:0; */
-  top:20px;
-  height:100%;
-  width:100%;
-  position:absolute;
-  }
+  top: 20px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+figure#wo {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 21px;
+}
+img.img-responsive {
+  width: 100%;
+}

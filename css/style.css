@@ -5432,3 +5432,13 @@ figure#wo {
 img.img-responsive {
   width: 100%;
 }
+
+@media screen and (max-width: 767px) {
+  /* Your CSS styles for screens below 767 pixels go here */
+  /* For example, you can hide or adjust elements for smaller screens */
+  img.img-responsive {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+}

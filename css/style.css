@@ -5437,7 +5437,7 @@ img.img-responsive {
   /* Your CSS styles for screens below 767 pixels go here */
   /* For example, you can hide or adjust elements for smaller screens */
   img.img-responsive {
-    width: 100%;
+    width: 90%;
     height: 100%;
     overflow: hidden;
   }

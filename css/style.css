@@ -5377,7 +5377,7 @@ Generic layout (demo looks)
 }
 a {
   color: rgb(151, 248, 6);
-  font-weight: bold;
+  font-weight: 300;
 }
 a:hover {
   color: rgb(151, 248, 6);

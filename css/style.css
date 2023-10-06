@@ -1754,9 +1754,16 @@ a.mailId {
     background: url("http://www.webcoderskull.com/img/right-sider-banner.png") no-repeat center top / cover;
 } */
 
+/* .cnt-block .equal-height {
+  margin-left: 17px;
+} */
 .our-webcoderskull .cnt-block {
   float: left;
   width: 90%;
+<<<<<<< HEAD
+=======
+  margin-left: 9%;
+>>>>>>> 0416f7bc31aa0a1fc8b0d558f89345ede9a96e52
   background: #ffffff;
   /* padding: 20px 20px; */
   text-align: center;
@@ -5425,10 +5432,20 @@ h2.modx {
 }
 
 figure#wo {
-  width: 100%;
+  width: 98%;
   overflow: hidden;
   border-radius: 21px;
 }
 img.img-responsive {
   width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  /* Your CSS styles for screens below 767 pixels go here */
+  /* For example, you can hide or adjust elements for smaller screens */
+  img.img-responsive {
+    width: 90%;
+    height: 100%;
+    overflow: hidden;
+  }
 }
